@@ -1,2 +1,1 @@
-# react-three-demo
-react three.js demo
+# React Three Demo
