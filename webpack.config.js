@@ -3,6 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const isProduction = process.env.NODE_ENV == 'production';
 
+/**
+ * @type import('webpack').Configuration
+ */
 const config = {
   entry: './src/index.tsx',
   output: {
