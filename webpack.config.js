@@ -7,12 +7,12 @@ const isProduction = process.env.NODE_ENV == 'production';
  * @type import('webpack').Configuration
  */
 const config = {
+  devtool: 'eval-source-map',
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    open: true,
     host: 'localhost',
     port: 3000,
   },
